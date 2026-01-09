@@ -1,9 +1,9 @@
-Email Spam Classifier
-Overview
+**Email Spam Classifier**
+**Overview**
 
 This project builds a supervised machine learning model to classify emails as spam or non-spam using high-dimensional word-frequency features. Multiple classifiers are evaluated to identify the most reliable and interpretable approach.
 
-Dataset
+**Dataset**
 
 Kaggle Email Spam Classification Dataset
 
@@ -13,7 +13,7 @@ Kaggle Email Spam Classification Dataset
 
 Binary target: spam / not spam
 
-Approach
+**Approach**
 
 80/20 train–test split
 
@@ -23,7 +23,7 @@ Class imbalance handling with SMOTE
 
 Model comparison across multiple classifiers
 
-Models Evaluated
+**Models Evaluated**
 
 Logistic Regression
 
@@ -37,7 +37,7 @@ Support Vector Machines (Linear, RBF, Polynomial)
 
 Dimensionality reduction techniques (PCA, Kernel PCA, LDA) were tested but did not improve performance.
 
-Final Model & Results
+**Final Model & Results**
 
 Final Model: Logistic Regression
 
@@ -45,10 +45,10 @@ Accuracy: ~96%
 
 Strong generalization and interpretability without dimensionality reduction
 
-Tech Stack
+**Tech Stack**
 
 Python, NumPy, Pandas, Scikit-learn
 
-Key Takeaway
+**Key Takeaway**
 
 Classical machine learning models with proper preprocessing can achieve high performance in email spam detection without deep learning.
